@@ -1,5 +1,5 @@
 /**************************************************************
- * Noabox V1 - Water Quality Monitoring Station
+ * LEAPSBOX - Water Quality Monitoring Station
  * File: LEAPSBOX_Arduino.ino (MODULAR VERSION)
  *
  * Features:
@@ -216,7 +216,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);
-  lcd.print("Noabox V1");
+  lcd.print("LEAPSBOX");
   lcd.setCursor(0, 1);
   lcd.print("Initializing...");
   delay(2000);
@@ -236,7 +236,7 @@ void setup() {
   digitalWrite(POMPA_AIR_LAUT_PIN, LOW);
   digitalWrite(POMPA_AIR_BILAS_PIN, LOW);
 
-  Serial.println(F("Noabox V1 - Ready!"));
+  Serial.println(F("LEAPSBOX - Ready!"));
   lcd.clear();
   matikanPompaLaut();
   matikanPompaBilas();
