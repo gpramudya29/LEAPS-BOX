@@ -1,4 +1,4 @@
-# NOABOX V1 - Water Quality Monitoring Station
+# LEAPSBOX - Water Quality Monitoring Station
 
 Sistem monitoring kualitas air berbasis Arduino Mega 2560 dengan multiple sensors dan data logging.
 
@@ -42,7 +42,7 @@ Sistem monitoring kualitas air berbasis Arduino Mega 2560 dengan multiple sensor
 
 ## 🔌 WIRING
 
-Lihat file **NoaboxV1_Wiring_Table.md** untuk wiring lengkap.
+Lihat file **LEAPSBOXV1_Wiring_Table.md** untuk wiring lengkap.
 
 ### Pin Summary
 - **Digital**: 2, 3, 6, 7, 8, 14, 15, 16, 17, 20, 21, 33-37, 39, 41, 50-53
@@ -81,7 +81,7 @@ Install library berikut via Arduino IDE Library Manager:
 ### 2. Software Setup
 1. Download & install Arduino IDE (1.8.x atau 2.x)
 2. Install semua required libraries
-3. Buka file `NoaboxV1_Arduino.ino`
+3. Buka file `LEAPSBOX_Arduino.ino`
 4. Pilih board: **Arduino Mega 2560**
 5. Pilih port yang sesuai
 6. Upload program
@@ -316,7 +316,7 @@ ESP32 dapat parse data ini dan upload ke cloud/database.
 
 ## 👨‍💻 AUTHOR
 
-Noabox V1 - 2025
+LEAPSBOX - 2025
 Based on Climbox structure with modifications
 
 ---
