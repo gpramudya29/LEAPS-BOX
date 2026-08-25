@@ -1,10 +1,10 @@
-# NOABOX V1 - PROGRAM STRUCTURE SUMMARY
+# LEAPSBOX - PROGRAM STRUCTURE SUMMARY
 
 ## 📂 File Structure
 
 ```
-NoaboxV1_Arduino/
-├── NoaboxV1_Arduino.ino    # Main program file
+LEAPSBOX_Arduino/
+├── LEAPSBOX_Arduino.ino    # Main program file
 ├── config.h                # Pin definitions & global variables
 ├── button_eeprom.h         # Button handling & EEPROM storage
 ├── lcd_display.h           # LCD 3-slide display system
@@ -20,7 +20,7 @@ NoaboxV1_Arduino/
 
 ## 🧩 Module Descriptions
 
-### 1. **NoaboxV1_Arduino.ino** (Main File)
+### 1. **LEAPSBOX_Arduino.ino** (Main File)
 **Purpose**: Orchestrates all modules, main loop logic
 
 **Key Functions:**
