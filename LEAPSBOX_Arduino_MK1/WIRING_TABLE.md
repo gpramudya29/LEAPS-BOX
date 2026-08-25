@@ -1,4 +1,4 @@
-# NOABOX V1 - WIRING TABLE
+# LEAPSBOX - WIRING TABLE
 ## Arduino Mega 2560 Pin Configuration
 
 ### KOMUNIKASI & INTERFACE
