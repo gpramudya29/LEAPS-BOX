@@ -1,6 +1,6 @@
 /**************************************************************
- * Noabox V1 - Water Quality Monitoring Station
- * File: NoaboxV1_Arduino.ino (MODULAR VERSION)
+ * LEAPSBOX - Water Quality Monitoring Station
+ * File: LEAPSBOX_Arduino.ino (MODULAR VERSION)
  *
  * Features:
  * - 5 tombol fisik untuk setting (Mode, OK, Cancel, Up, Down)
@@ -218,7 +218,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);
-  lcd.print("Noabox V1");
+  lcd.print("LEAPSBOX");
   lcd.setCursor(0, 1);
   lcd.print("Initializing...");
   delay(2000);
@@ -238,7 +238,7 @@ void setup() {
   digitalWrite(POMPA_AIR_LAUT_PIN, LOW);
   digitalWrite(POMPA_AIR_BILAS_PIN, LOW);
 
-  Serial.println(F("Noabox V1 - Ready!"));
+  Serial.println(F("LEAPSBOX - Ready!"));
   lcd.clear();
   matikanPompaLaut();
   matikanPompaBilas();
@@ -282,7 +282,7 @@ void loop() {
     // Tombol ganti slide
     if (readButton(btnUp)) {
       lcd.clear();
-      currentSlide = (currentSlide + 1) % 3;  // 3 slides untuk noabox
+      currentSlide = (currentSlide + 1) % 3;  // 3 slides untuk LEAPSBOX
       lcdForce = true;
       delay(200);
     } else if (readButton(btnDown)) {
