@@ -1,6 +1,6 @@
 /**************************************************************
  * Noabox V1 - Water Quality Monitoring Station
- * File: NoaboxV1_Arduino.ino (MODULAR VERSION)
+ * File: LEAPSBOX_Arduino.ino (MODULAR VERSION)
  *
  * Features:
  * - 5 tombol fisik untuk setting (Mode, OK, Cancel, Up, Down)
